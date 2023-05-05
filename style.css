@@ -63,6 +63,14 @@ button {
 
 }
 
+.button1 {
+    border: 1px solid #3882f6;
+}
+
+.button2 {
+    border: 1px solid #f9faf8
+}
+
 .information {
     text-align: center;
     margin-bottom: 100px;
