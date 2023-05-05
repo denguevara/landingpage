@@ -1,4 +1,5 @@
-.dark-background {
+.dark-background,
+.footer{
     background-color: #1f2937;
     color: #f9faf8;
 }
@@ -16,13 +17,14 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 0 50px;
+    padding: 0 100px;
     align-items: center;
 }
 
 h1 {
     font-size: 48px;
     font-weight: bolder;
+    margin: 0;
 }
 
 ul {
@@ -33,16 +35,50 @@ ul {
     
 }
 
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    gap: 50px;
+}
+
+
+
 .hero-text {
     color: #e5e7eb;
+    margin: 0;
+    margin-bottom: 10px;
+   
 }
 
 button {
     background-color: #3882f6;
     color: #f9faf8;
+    font-weight: 800;
     border-radius: 8px;
     padding: 8px;
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+
+}
+
+.information {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.images {
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
     
+}
+
+.img-text {
+    padding: 0 30px;
+    margin: 0;
 }
 
 .blue {
@@ -58,14 +94,46 @@ h2 {
 
 .quote {
     background-color: #e5e7eb;
+    padding: 75px 220px;
+    
+    
 }
 
 .quote-text {
     font-size: 36px;
     font-style: italic;
+    text-align: left;
 }
 
 .thor {
     font-size: 25px;
     font-weight: 800;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.blue {
+    margin: 50px 100px;
+    border-radius: 10px;
+    padding: 40px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call {
+    display: flex;
+    flex-direction: column;
+}
+
+h4 {
+    margin: 0;
+}
+
+.sign {
+    margin: 0;
+}
+
+.footer {
+    padding: 20px 100px;
+    text-align: center;
 }
